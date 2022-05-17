@@ -2,7 +2,7 @@
   "name": "stadium_football_fans_backend_netlify",
   "version": "1.0.0",
   "description": "",
-  "main": "src/api.js",
+  "main": "index.js",
   "scripts": {
     "start": "serve src",
     "build": "./node_modules/.bin/netlify-lambda build src",
