@@ -1,15 +1,16 @@
 const express = require("express");
 const { route } = require("express/lib/application");
 const serverless = require("serverless-http");
-const se= require("")
+const se = require("");
 
 const app = express();
 
 const router = express.Router();
 
 route.get("/", (req, res) => {
+    console.log(res)
   res.json({
-    hello: "hi"
+    "hello": "hi"
   });
 });
 
